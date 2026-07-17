@@ -1,12 +1,16 @@
 from groq import Groq
 from dotenv import load_dotenv
+import streamlit as st
 import os
 
 load_dotenv()
 
-client = Groq(
-    api_key=os.getenv("GROQ_API_KEY")
-)
+try:
+    api_key = st.secrets["GROQ_API_KEY"]
+except Exception:
+    api_key = os.getenv("GROQ_API_KEY")
+
+client = Groq(api_key=api_key)
 
 DATABASE_SCHEMA = """
 Table Name: retail_data
