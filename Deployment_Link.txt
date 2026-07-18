@@ -1,0 +1,10 @@
+OneTapp AI Retail Analytics Assistant
+
+Live Demo: https://onetapp-ai-analytics-assistant-qhgbdb5mhjrpjebnhansk3.streamlit.app/ 
+
+GitHub Repository: https://github.com/amohammedmudassir/OneTapp-AI-Analytics-Assistant 
+
+Submitted By:
+A Mohammed Mudassir 
+1CR22EC001
+CMR Institute of Technology
